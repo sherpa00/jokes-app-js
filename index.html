@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Jokes app</title>
+</head>
+<body>
+    <div class="container">
+        <h1>JOKES GENERATOR</h1>
+        <div class="amount_cont">
+            <label for="number">Jokes Amount</label>
+            <select id="number">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+            </select>
+        </div>
+        <div class="option_cont">
+            <h2>Choose Type of Jokes</h2>
+            <form class="options">
+                <label for="misc">Misc</label>
+                <input type="checkbox" id="misc" value="Misc"/>
+
+                <label for="pun">Pun</label>
+                <input type="checkbox" id="pun" value="Pun"/>
+
+                <label for="programming">Programming</label>
+                <input type="checkbox" id="programming" value="Programming"/>
+
+                <label for="dark">Dark</label>
+                <input type="checkbox" id="dark" value="Dark"/>
+            </form>
+        </div>
+
+        <button type="button" class="generate">
+            Generate Jokes
+        </button>
+
+        <div class="jokes_cont">
+            
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
